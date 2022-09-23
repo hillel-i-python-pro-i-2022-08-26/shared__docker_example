@@ -1,8 +1,5 @@
-from faker import Faker
-
+from application.services.faker_obj import faker
 from application.typing import T_MESSAGE
-
-faker = Faker()
 
 
 def generate_message() -> T_MESSAGE:
