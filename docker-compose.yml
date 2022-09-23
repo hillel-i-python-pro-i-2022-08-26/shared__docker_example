@@ -6,3 +6,5 @@ services:
     build: .
     volumes:
       - './input:/wd/input:r'
+      - './output:/wd/output:rw'
+    user: '1000'

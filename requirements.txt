@@ -1,6 +1,9 @@
 # For name generator
 faker==14.2.1
 
+# For unique IDs
+ulid-py==1.1.0
+
 # [code_style]-[BEGIN]
 # Pre-commit hook.
 pre-commit==2.20.0
